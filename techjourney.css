@@ -1,0 +1,26 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 15px;
+}
+
+h4 {
+    color: greenyellow;
+}
+
+h5, h6 {
+    color: orange;
+}
+
+
+
+
+#headercss {
+    color:blue;
+}
+
+.paraclass{
+    color: green;
+    font-size: 50px;
+}
+

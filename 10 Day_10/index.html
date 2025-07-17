@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assignmentday09.js"></script>
+    <!-- <script src="jsevents.js"></script> -->
+</head>
+<body>
+    <h1>LWC Bootcamp Day 10</h1>
+
+    <button onclick="clickme()">Click Here</button>
+
+    <div class="hoverme" 
+        style="background-color:green; height:200px; width:200px;" 
+        onmouseover="mouseoverhandler()"
+        onmouseout="mouseouthandler()">
+    </div>
+
+    <div>
+        <label>Enter Number</label>
+        <input type="number" 
+               onchange="changeHandler(event)" 
+               style="margin-top: 20px;"
+               name="inputme">
+    </div>
+
+    <script src="jsevents.js"></script>
+    <!-- If I load the JS file at the Last then NodeList is not Empty and having two values
+     but if I load JS file at line 8 then the NodeList is Empty this is because of DOM. -->
+</body>
+</html>
